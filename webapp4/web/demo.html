@@ -1,0 +1,66 @@
+<html>
+	<link href="kajol.css" rel="stylesheet">
+	<script src="abc.js"></script>
+	<div class="head">
+		<img src="images/logo.png" style="margin-left: 20px;">
+	</div>
+	<div class=content>
+	  <div class="nav">
+		<div class="navcon">Home</div>
+		<div class="navcon">About Us</div>
+		<div class="navcon">FAQ</div>
+		<div class="navcon">Join Forum</div>
+		<div class="navcon">Contact Us</div>
+	  </div>
+	  <div class="frm">
+	   <h3>New User Registeration</h3>
+	   <form action="signup" onsubmit="return validate(this)">
+  	   <table>
+	    <tr>
+	      	<td class=lbl>First Name</td>
+		<td><input type=text placeholder="Enter Your Name" class=tf name=txt1></td>
+	    </tr>
+	    <tr>
+	      	<td class=lbl>Last Name</td>
+		<td><input type=text placeholder="Enter Last Name" class=tf name=txt2></td>
+	    </tr>
+	    <tr>
+	      	<td class=lbl>Email</td>
+		<td><input type=email class=tf placeholder="Enter Email" name=txt3></td>
+	    </tr>
+	    <tr>
+	      	<td class=lbl>Password</td>
+		<td><input type=password class=tf placeholder="Enter Password" name=txt4></td>
+	    </tr>
+	    <tr>
+	      	<td class=lbl>Confirm Password</td>
+		<td><input type=password class=tf placeholder="Enter Confirm Password" name=txt5>
+	    <tr>
+	      	<td class=lbl>Gender</td>
+		<td><input type=radio checked name=rad value="male">Male<input type=radio name=rad value="female">Female</td>
+	    </tr>
+	    <tr>
+	      	<td class=lbl>Country</td>
+		<td><select name="cnt">
+			<option>India</option>
+			<option>United States</option>
+		</select></td>
+	    </tr>
+            <tr>
+                <td></td>
+                <td><input type="file" name="pic" accept="image/*" class=tf></td>
+                <td>Select a file to upload</td>
+            </tr>
+	    <tr>
+	      	<td></td>
+                <td><input type=submit value=SUBMIT class="btn">&nbsp;&nbsp;&nbsp;<a href="login.html" style="text-decoration: none;color:#ff0000;font-size: 15px;">EXISTING USER?</a></td>
+               
+	    </tr>
+	    <tr>
+		<td colspan=2><span style='color:red;font-size: 13px' id=err></span></td>
+	    </tr>			
+	   </table>
+	   </form>
+	  </div>
+	</div>
+</html>

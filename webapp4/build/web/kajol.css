@@ -1,0 +1,76 @@
+.tf{
+	border: 1px solid #000;
+	width: 250px;
+	height:30px;
+	padding: 5px;
+}
+.lbl{
+	font-size: 13px;
+	font-family: Tahoma;
+	color: #720000;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #000;
+	background-color: #2f83b6;
+}
+.head{
+	width: 100%;
+	height: 180px;
+	background-color: #f59f17;
+}
+.content{
+	width: 90%;
+	height: 75%;
+	padding: 10px;
+}
+.nav{
+	width: 23%;
+	height: 90%;
+	background-color: #3594c5;
+	float:left;
+	padding-top: 50px;
+}
+.frm{
+	width: 60%;
+	height: 90%;
+	float: left;
+	padding-left: 100px;
+	margin-left: 20px;
+}
+.navcon{
+	background-color: #f59f17;
+	height: 30px;
+	padding-top: 5px;
+	width: 98%;
+	margin-left: 2px;
+	border: 1px solid #720000;
+	color: #000;
+	font-size: 20px;
+	font-family: verdana;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.navcon:hover{
+	background-color: #f59f17;
+	height: 30px;
+	padding-top: 5px;
+	width: 102%;
+	margin-left: 2px;
+	border: 1px solid #720000;
+	color: #000;
+	font-size: 20px;
+	font-family: verdana;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.usrinf{
+    width: 20%;
+    height: 20px;
+    margin-left: 62%;
+	margin-top:10%;
+    float: left;
+}

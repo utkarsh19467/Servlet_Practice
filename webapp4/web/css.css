@@ -1,0 +1,9 @@
+.txt{
+	width: 150px;
+	height: 25px;
+	border: 1px solid #000;
+}
+.lbl{
+	font-family: verdana;
+	font-size: 13px;
+}
